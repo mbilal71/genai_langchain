@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "genai-langchain"
+version = "0.1.0"
+description = ""
+authors = ["Muhammad Bilal Siddique <mbilal71@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain-core = "^0.2.35"
+langchain-community = "^0.2.12"
+langchain = "^0.2.14"
+langchain-google-genai = "^1.0.10"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
